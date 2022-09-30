@@ -1,8 +1,13 @@
 import "../styles/Button.css"
+import {useState} from "react";
+
 
 function Button(props:any){
+    const sendData = () => {
+        props.onButtonClick(props.value)
+    }
     return(
-        <input className="button grid-item" type="button" value={props.value} id={props.id} onClick={() => alert(props.value)}/>
+        <input className="button grid-item" type="button" value={props.value} onClick={sendData}/>
     )
 }
 
