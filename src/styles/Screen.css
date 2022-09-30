@@ -1,0 +1,9 @@
+.screen input{
+    border-style: solid;
+    width: 370px;
+    height: 100px;
+    margin: 10px;
+    padding-left: 10px;
+    background-color: lightgray;
+    font-size: 40px;
+}

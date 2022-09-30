@@ -1,0 +1,10 @@
+.calculator {
+    border-style: solid;
+    width: fit-content;
+    block-size: fit-content;
+    background-color: black;
+}
+
+.center {
+    margin:100px;
+}

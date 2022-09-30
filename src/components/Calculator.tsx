@@ -1,4 +1,4 @@
-import "./Calculator.css"
+import "../styles/Calculator.css"
 import Screen from "./Screen"
 import ButtonPad from "./ButtonPad";
 function Calculator() {
